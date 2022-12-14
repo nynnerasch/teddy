@@ -6,26 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TEDDY SOFA</title>
   </head>
-  <body class="mx-10 mt-4 bg-baggrundsfarve md:mx-24">
-    <header class="flex flex-row items-center">
+  <body
+    class="mx-10 mt-4 bg-baggrundsfarve bg-[url('assets/baggrundsbillede.webp')] bg-cover bg-center bg-no-repeat bg-blend-overlay md:mx-24"
+  >
+    <header class="mb-14 flex flex-row items-center">
       <img
         src="assets/teddy_logo.webp"
         alt="logo"
         class="h-8 w-auto md:h-24 md:pr-24"
       />
-      <h2 class="px-6 text-tekstfarve md:px-24 md:text-5xl">
+      <h2
+        class="px-6 text-tekstfarve hover:underline hover:underline-offset-8 md:px-24 md:text-5xl"
+      >
         <a href="shop.html">SHOP</a>
       </h2>
-      <h2 class="pr-6 text-tekstfarve md:px-24 md:text-5xl">
+      <h2
+        class="pr-6 text-tekstfarve hover:underline hover:underline-offset-8 md:px-24 md:text-5xl"
+      >
         <a href="findos.html">FIND OS</a>
       </h2>
       <img
-        src="assets/kurv_outline.png"
+        src="assets/kurv_ikon.png"
         alt="kurv"
-        class="h-4 w-auto md:h-8 md:pl-52"
+        class="h-4 w-auto md:h-12 md:pl-52"
       />
     </header>
-    <main></main>
+    <main>
+      <!--HERO SECTION-->
+      <section class="">
+        <div class="flex flex-row">
+          <div class="flex flex-col">
+            <h1 class="text-3xl text-tekstfarve md:text-8xl">
+              JUSTERBARE SOFAER
+            </h1>
+            <h2 class="mt-4 pl-2 italic text-tekstfarve md:text-5xl">
+              Kompromisløst design
+            </h2>
+          </div>
+          <img
+            src="assets/foldet_uden_baggrund.webp"
+            alt="sofa"
+            class="absolute left-1/2 mt-7 h-auto w-44 md:mt-20 md:w-1/3"
+          />
+          <a href="shop.html"
+            ><p
+              class="drop-shadox-xl absolute mt-40 h-7 w-16 justify-center rounded-2xl bg-knapfarve px-3 py-2 font-bold text-tekstfarve hover:bg-hover hover:text-baggrundsfarve md:hidden"
+            >
+              SHOP HER
+            </p></a
+          >
+          <a href="shop.html"
+            ><button
+              class="drop-shadox-xl absolute top-96 left-2/3 mt-52 ml-20 hidden rounded-full bg-knapfarve py-6 px-16 text-4xl font-bold text-tekstfarve hover:bg-hover hover:text-baggrundsfarve md:block"
+            >
+              SHOP HER
+            </button></a
+          >
+        </div>
+      </section>
+    </main>
     <footer></footer>
     <script type="module" src="./main.js"></script>
   </body>
