@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     colors: {
       baggrundsfarve: "#F9D7DE",
-      tekstfarve: "##471C24",
+      tekstfarve: "#471C24",
       hover: "#594ABF",
       checkbox: "#A2D2FF",
       hover2: "#FFB6E1",

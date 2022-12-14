@@ -7,7 +7,7 @@
     font-family: "aptly", sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 72px;
+    font-size: 24px;
     line-height: 86px;
   }
 
@@ -15,7 +15,7 @@
     font-family: "Aptly", sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 48px;
+    font-size: 18px;
     line-height: 57px;
   }
 
@@ -23,14 +23,14 @@
     font-family: "Elza";
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 12px;
     line-height: 29px;
   }
   p {
     font-family: "Elza";
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 8px;
     line-height: 19px;
   }
 }
