@@ -65,15 +65,33 @@
             <h3 class="mt-2 mb-2 text-center text-tekstfarve md:text-2xl">
               BØJLEMATERIALE
             </h3>
-            <div class="flex flex-row items-center px-1">
-              <div
-                class="mb-2 h-3 w-3 rounded bg-knapfarve px-1 md:h-8 md:w-8"
-              ></div>
-              <p class="ml-2 text-tekstfarve md:text-base">MESSING</p>
+            <div class="flex flex-row px-1 text-tekstfarve">
+              <input
+                id="messing"
+                class="peer/messing mb-2 h-3 w-3 rounded border-none bg-knapfarve px-1 text-checkbox focus:ring-hover2 md:ml-2 md:h-8 md:w-8"
+                type="checkbox"
+                name="status"
+                checked
+              />
+              <label
+                for="messing"
+                class="peer-checked/draft:text-tekstfarve ml-2 text-tekstfarve"
+                ><p class="md:mt-1 md:text-base">MESSING</p></label
+              >
             </div>
-            <div class="flex flex-row items-center px-1">
-              <div class="h-3 w-3 rounded bg-knapfarve md:h-8 md:w-8"></div>
-              <p class="ml-2 text-tekstfarve md:text-base">KROM</p>
+            <div class="flex flex-row px-1 text-tekstfarve">
+              <input
+                id="krom"
+                class="peer/krom mb-2 h-3 w-3 rounded border-none bg-knapfarve px-1 text-checkbox focus:ring-hover2 md:ml-2 md:h-8 md:w-8"
+                type="checkbox"
+                name="status"
+                checked
+              />
+              <label
+                for="krom"
+                class="peer-messing/krom:text-tekstfarve ml-2 text-tekstfarve"
+                ><p class="md:mt-1 md:text-base">KROM</p></label
+              >
             </div>
           </div>
         </div>
