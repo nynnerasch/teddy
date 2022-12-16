@@ -4,35 +4,158 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Teddy / grøn</title>
   </head>
   <body
     class="mt-4 bg-baggrundsfarve bg-[url('assets/baggrundsbillede.webp')] bg-cover bg-center bg-no-repeat bg-blend-overlay"
   >
-    <header class="mx-10 flex flex-row items-center md:mx-24">
-      <a href="index.html"
-        ><img
+    <header class="mx-10 mb-14 flex flex-row items-center md:mx-24">
+      <a href="index.html">
+        <img
           src="assets/teddy_logo.webp"
           alt="logo"
           class="h-8 w-auto md:h-24 md:pr-24"
       /></a>
       <h2
-        class="pr-6 text-tekstfarve hover:underline hover:underline-offset-8 md:px-24 md:text-5xl"
+        class="px-6 text-tekstfarve hover:underline hover:underline-offset-8 md:px-24 md:text-5xl"
       >
-        SHOP
+        <a href="shop.html">SHOP</a>
       </h2>
-      <h2
-        class="pr-6 text-tekstfarve hover:underline hover:underline-offset-8 md:px-24 md:text-5xl"
-      >
+      <h2 class="pr-6 text-tekstfarve md:px-24 md:text-5xl">
         <a href="findos.html">FIND OS</a>
       </h2>
       <img
-        src="assets/kurv_outline.png"
+        src="assets/kurv_ikon.png"
         alt="kurv"
-        class="h-4 w-auto md:h-8 md:pl-52"
+        class="h-4 w-auto md:h-12 md:pl-52"
       />
     </header>
-    <main class="mx-10 md:mx-24"></main>
+    <main class="mx-10 mt-10 md:mx-24">
+      <a href="shop.html">
+        <img src="assets/gå_tilbage.png" alt="gå tilbage pil" class="md:hidden"
+      /></a>
+      <a href="shop.html"
+        ><button
+          class="hidden rounded-xl bg-knapfarve p-3 text-tekstfarve hover:bg-hover hover:text-baggrundsfarve md:block"
+        >
+          <p class="text-base">Gå tilbage</p>
+        </button></a
+      >
+      <section class="md:grid md:grid-cols-2">
+        <section class="md:mt-10">
+          <div class="flex flex-row items-center justify-center md:mb-5">
+            <img
+              src="assets/pil_venstre.png"
+              alt="venstre pil"
+              class="h-6 w-6 md:h-12 md:w-12"
+            />
+            <img
+              src="assets/sofa_grøn.backdrop.webp"
+              alt="grøn sofa"
+              class="h-auto w-72 rounded-3xl md:w-max"
+            />
+            <img
+              src="assets/pil_højre.png"
+              alt="højre pil"
+              class="h-6 w-6 md:h-12 md:w-12"
+            />
+          </div>
+          <div class="mt-2 flex flex-row justify-center gap-x-2">
+            <img
+              src="assets/sofa_grøn_2.backdrop.webp"
+              alt="grøn sofa"
+              class="h-16 w-16 rounded-xl md:h-32 md:w-32"
+            />
+            <img
+              src="assets/sofa_grøn_3.backdrop.webp"
+              alt="grøn sofa"
+              class="h-16 w-16 rounded-xl md:h-32 md:w-32"
+            />
+            <img
+              src="assets/sofa_grøn_4.backdrop.webp"
+              alt="grøn sofa"
+              class="h-16 w-16 rounded-xl md:h-32 md:w-32"
+            />
+            <img
+              src="assets/sofa_grøn_5.backdrop.webp"
+              alt="grøn sofa"
+              class="h-16 w-16 rounded-xl md:h-32 md:w-32"
+            />
+          </div>
+        </section>
+        <!-- TEKST OMRÅDE -->
+        <section class="mt-5 text-tekstfarve md:mt-10 md:ml-10">
+          <h2 class="text-tekstfarve md:mb-2 md:text-5xl">TEDDY / GRØN</h2>
+          <p class="mb-2 text-tekstfarve md:text-base">VARENR: 001-5763</p>
+          <div class="flex flex-row px-1 text-tekstfarve">
+            <input
+              id="messing"
+              class="peer/messing mb-2 h-3 w-3 rounded border-none bg-knapfarve text-checkbox focus:ring-hover2 md:h-8 md:w-8"
+              type="checkbox"
+              name="status"
+              checked
+            />
+            <label
+              for="messing"
+              class="peer-checked/draft:text-tekstfarve text-tekstfarve"
+              ><p class="ml-2 md:mt-1 md:text-base">MESSING</p></label
+            >
+          </div>
+          <div class="flex flex-row px-1 text-tekstfarve">
+            <input
+              id="krom"
+              class="peer/krom h-3 w-3 rounded border-none bg-knapfarve text-checkbox focus:ring-hover2 md:h-8 md:w-8"
+              type="checkbox"
+              name="status"
+              checked
+            />
+            <label
+              for="krom"
+              class="peer-messing/krom:text-tekstfarve ml-2 text-tekstfarve"
+              ><p class="md:mt-1 md:text-base">KROM</p></label
+            >
+          </div>
+          <button
+            class="my-2 flex flex-row items-center rounded-xl bg-knapfarve p-2 text-tekstfarve hover:bg-hover hover:text-baggrundsfarve md:mb-5 md:mt-5 md:rounded-3xl md:p-3"
+          >
+            <img
+              src="assets/kurv_ikon.png"
+              alt="kurv"
+              class="h-3 w-3 md:h-5 md:w-5"
+            />
+            <p class="ml-2 md:ml-4 md:text-base">Tilføj til kurv</p>
+          </button>
+          <p class="mb-3 md:mb-6 md:text-base">KLARNA - KØB NU, BETAL SENERE</p>
+          <h3 class="mb-1 md:mb-2 md:text-2xl">PRODUKTBESKRIVELSE</h3>
+          <p class="mb-2 md:mb-4 md:text-base">
+            TEDDY - en sovesofa efter den klassiske betydning. Han har ingen
+            ben, håndtag eller avancerede, mekaniske konstruktioner, men han
+            giver det blødeste bjørnekram og folder sig ud til en stor
+            dobbeltseng med et snuptag. Teddy består af to madrasser og to
+            vinkelhynder, som nemt kan flyttes rundt på. Han holdes sammen af
+            tre mobile bøjler i forkromet jern. Madrasserne er af høj kvalitet,
+            forholdsvis hårde, og god at sidde i og sove på. Vinkelhynderne
+            indeholder granulat omkranset af et indvendigt stofhylster, som gør
+            fløjlsstoffet nemt at lyne af.<br />
+            Sidst, men ikke mindst, er TEDDY indhyllet i det blødeste,
+            bredriflede fløjlsstof, som er yderst slidstærkt og af høj kvalitet.
+          </p>
+          <h3 class="mb-1 md:mb-2 md:text-2xl">VASKEANVISNING</h3>
+          <p class="mb-2 md:mb-4 md:text-base">
+            Når det kommer til rengøring af TEDDY, så er den så smart indrettet
+            at man kan lyne stoffet af på både hynder og madrasser. Det gør det
+            muligt at vaske stoffet ved lav temperatur. Det anbefales at vaske
+            ved maks 30° og med mild/ekstra skånsom sæbe.
+          </p>
+          <h3 class="mb-1 md:mb-2 md:text-2xl">PRODUKTINFORMATION</h3>
+          <p class="mb-2 md:mb-4 md:text-base">
+            Størrelse: Bredde 200, dybde 100, højde 70, sædehøjde 34 cm.<br />
+            Stof: 100% polyester (35.000 Martindale). Kan lynes af og renses.<br />
+            Madrasser og hynder: Koldskum og granulat.
+          </p>
+        </section>
+      </section>
+    </main>
 
     <footer
       class="mx-0 mt-20 grid grid-cols-3 bg-hover bg-opacity-90 bg-[url('assets/baggrundsbillede.webp')] bg-cover bg-center bg-no-repeat text-baggrundsfarve bg-blend-overlay"
