@@ -208,12 +208,21 @@
         </button>
       </div>
       <div class="mx-5 mt-2 md:mx-10 md:mt-10 md:mb-4">
-        <p class="md:text-base"><b>Tilmeld dig vores nyhedsbrev</b></p>
-        <div
-          class="mt-2 rounded-2xl bg-tekstfelt p-1 text-tekstfelt_skrift md:mt-4 md:p-3"
-        >
-          <p class="md:text-sm">Din mail her</p>
-        </div>
+        <p class="md:mb-4 md:text-base"><b>Tilmeld dig vores nyhedsbrev</b></p>
+        <form>
+          <label class="block">
+            <input
+              type="email"
+              class="... peer h-3 w-28 rounded-lg border-none md:h-7 md:w-64"
+            />
+            <p
+              class="invisible mt-2 text-baggrundsfarve peer-invalid:visible md:text-base"
+            >
+              Hov! det ser forkert ud. Har du tjekket at du har skrevet en
+              gyldig e-mail adresse?
+            </p>
+          </label>
+        </form>
         <p
           class="mt-5 underline underline-offset-4 hover:text-checkbox md:mt-10 md:text-base"
         >
