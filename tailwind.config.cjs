@@ -13,7 +13,7 @@ module.exports = {
       tekstfelt_skrift: "#AAAAAB",
       afvis_cookies: "#F23333",
       tillad_cookies: "#7EF089",
-      header: "#ADA6DF",
+      headerhover: "#382d80",
     },
     extend: {},
   },
