@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shop</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body
     class="mt-4 bg-baggrundsfarve bg-[url('assets/baggrundsbillede.webp')] bg-cover bg-center bg-no-repeat bg-blend-overlay"
@@ -33,73 +34,14 @@
       />
     </header>
     <main class="mx-10 md:mx-24">
-      <!--VÆLG SELV-->
-      <section>
-        <h1 class="mb-5 text-tekstfarve md:mb-10 md:text-7xl">
-          VÆLG DIN NYE TEDDYSOFA
-        </h1>
-        <div class="grid grid-cols-2 justify-items-start md:mb-10">
-          <div class="h-20 w-36 rounded-lg bg-checkbox md:h-32 md:w-80">
-            <h3 class="mt-2 mb-2 text-center text-tekstfarve md:text-2xl">
-              FARVER
-            </h3>
-            <div class="mb-2 flex justify-evenly gap-x-3 px-1">
-              <div class="h-3 w-3 rounded bg-grøn md:h-8 md:w-8"></div>
-              <div class="h-3 w-3 rounded bg-hvid md:h-8 md:w-8"></div>
-              <div class="h-3 w-3 rounded bg-gul md:h-8 md:w-8"></div>
-              <div class="h-3 w-3 rounded bg-mørkegrå md:h-8 md:w-8"></div>
-              <div class="h-3 w-3 rounded bg-brun md:h-8 md:w-8"></div>
-              <div class="h-3 w-3 rounded bg-rosa md:h-8 md:w-8"></div>
-            </div>
-            <div class="flex justify-evenly gap-x-3 px-1">
-              <div class="h-3 w-3 rounded bg-lavendel md:h-8 md:w-8"></div>
-              <div class="h-3 w-3 rounded bg-sort md:h-8 md:w-8"></div>
-              <div class="h-3 w-3 rounded bg-grå md:h-8 md:w-8"></div>
-              <div class="h-3 w-3 rounded bg-turkis md:h-8 md:w-8"></div>
-              <div class="h-3 w-3 rounded bg-blå md:h-8 md:w-8"></div>
+      <h1 class="mb-5 text-tekstfarve md:mb-10 md:text-7xl">
+        VÆLG DIN NYE TEDDYSOFA
+      </h1>
 
-              <div class="h-3 w-3 rounded bg-blå opacity-0 md:h-8 md:w-8"></div>
-            </div>
-          </div>
-          <div class="mb-5 h-20 w-36 rounded-lg bg-checkbox md:h-32 md:w-80">
-            <h3 class="mt-2 mb-2 text-center text-tekstfarve md:text-2xl">
-              BØJLEMATERIALE
-            </h3>
-            <div class="flex flex-row px-1 text-tekstfarve">
-              <input
-                id="messing"
-                class="peer/messing mb-2 h-3 w-3 rounded border-none bg-knapfarve px-1 text-checkbox focus:ring-hover2 md:ml-2 md:h-8 md:w-8"
-                type="checkbox"
-                name="status"
-                checked
-              />
-              <label
-                for="messing"
-                class="peer-checked/draft:text-tekstfarve ml-2 text-tekstfarve"
-                ><p class="md:mt-1 md:text-base">MESSING</p></label
-              >
-            </div>
-            <div class="flex flex-row px-1 text-tekstfarve">
-              <input
-                id="krom"
-                class="peer/krom mb-2 h-3 w-3 rounded border-none bg-knapfarve px-1 text-checkbox focus:ring-hover2 md:ml-2 md:h-8 md:w-8"
-                type="checkbox"
-                name="status"
-                checked
-              />
-              <label
-                for="krom"
-                class="peer-messing/krom:text-tekstfarve ml-2 text-tekstfarve"
-                ><p class="md:mt-1 md:text-base">KROM</p></label
-              >
-            </div>
-          </div>
-        </div>
-      </section>
       <!--ALLE PRODUKTER-->
       <section>
         <h2 class="mb-5 text-tekstfarve md:mb-10 md:text-5xl">
-          ...ELLER SE ALLE PRODUKTER
+          SE ALLE PRODUKTER HER
         </h2>
         <section
           class="grid grid-cols-2 grid-rows-6 justify-items-center gap-y-2 text-tekstfarve md:grid-cols-4 md:grid-rows-3 md:gap-y-6"
