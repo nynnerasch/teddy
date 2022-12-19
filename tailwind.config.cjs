@@ -14,6 +14,7 @@ module.exports = {
       afvis_cookies: "#F23333",
       tillad_cookies: "#4FC55B",
       headerhover: "#382d80",
+      herosection: "#692935",
     },
     extend: {},
   },
