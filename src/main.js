@@ -20,6 +20,10 @@ animate(
   { delay: 3, duration: 4, direction: "alternate", repeat: 2 }
 );
 
+inView(".cookies", () => {
+  animate(".cookies", { x: [-2000, 0] }, { duration: 10 });
+});
+
 const acceptCookie = document.querySelector("#tillad");
 const denyCookie = document.querySelector("#afvis");
 const cookieboks = document.querySelector("#cookieboks");
