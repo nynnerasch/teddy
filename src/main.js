@@ -1,6 +1,6 @@
 import "./style.css";
 /* Import af Motion One bibliotek */
-import { animate, stagger, inView, scroll, timeline } from "motion";
+import { animate, inView } from "motion";
 
 inView(".inview", () => {
   animate(".inview", { x: [-2000, 0] }, { duration: 2 });
@@ -9,6 +9,16 @@ inView(".inview", () => {
 inView(".inview2", () => {
   animate(".inview2", { x: [-2000, 0] }, { duration: 4 });
 });
+
+inView(".inviewbillede", () => {
+  animate(".inviewbillede", { x: [2000, 0] }, { duration: 4 });
+});
+
+animate(
+  ".mereanimate",
+  { opacity: [0, 1, 0.2, 0.8], scale: [0.95, 1, 0.7, 0.9] },
+  { delay: 3, duration: 4, direction: "alternate", repeat: 2 }
+);
 
 const acceptCookie = document.querySelector("#tillad");
 const denyCookie = document.querySelector("#afvis");
