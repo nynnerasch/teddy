@@ -12,7 +12,7 @@ module.exports = {
       tekstfelt: "#FEF1F1",
       tekstfelt_skrift: "#AAAAAB",
       afvis_cookies: "#F23333",
-      tillad_cookies: "#7EF089",
+      tillad_cookies: "#4FC55B",
       headerhover: "#382d80",
     },
     extend: {},
