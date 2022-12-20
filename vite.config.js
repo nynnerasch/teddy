@@ -18,7 +18,6 @@ export default defineConfig({
         findos: resolve(__dirname, "src/findos.html"),
         produkt: resolve(__dirname, "src/produkt.html"),
         sitemap: resolve(__dirname, "src/sitemap.html"),
-        sitemap2: resolve(__dirname, "src/sitemap.xml"),
         // about: resolve(__dirname, "src/about.html"),
       },
     },
